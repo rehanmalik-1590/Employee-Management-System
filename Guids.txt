@@ -1,0 +1,71 @@
+
+****************** Backend ***********************
+
+first check java install or not in your machine
+
+🚀 Backend Setup (Spring Boot + MySQL)
+
+Step_1: Install an IDE
+Choose and install an Integrated Development Environment (IDE) such as IntelliJ IDEA or Eclipse.​
+
+Step_2: Open the Project
+Launch your chosen IDE and open the backend project folder.​
+
+Step_3: Install MySQL Workbench and Create a Database
+Download and install MySQL Workbench.
+
+Open MySQL Workbench and create a new database for your project.​
+
+Step_4: Configure application.properties
+
+Locate the application.properties file within your project directory. Update it with your database credentials:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+spring.datasource.username=your_database_username
+spring.datasource.password=your_database_password
+
+
+Step_5: Run the Application
+In your IDE, navigate to the main application file (e.g., EmsProjectBackendApplication.java). 
+Right-click on the file and select Run to start the backend server.
+
+
+
+
+****************** Frontend ***********************
+
+
+first check nodejs install or not in you machine
+
+Frontend Setup (React)
+
+Step_1: Install a Code Editor
+Download and install a code editor like Visual Studio Code (VS Code).​
+
+Step_2: Open the Frontend Project
+Open the frontend part of your project in VS Code.​
+
+Step_3: Install Dependencies and Start the Development Server
+Open the terminal in VS Code and navigate to the frontend project directory. Run the following commands:
+
+npm install
+npm start
+OR
+npm run dev
+
+
+This will start the development server, and you can view the application in your browser at http://localhost:3000/.
+
+
+
+
+
+
+
+*****************************************************************
+
+Support and Contributions
+If you find these projects helpful, please consider subscribing to my YouTube channel. Your support motivates me to create more valuable content.​
+
+If you need a specific project or have any questions, feel free to leave a comment below my videos. I will respond to your queries as soon as possible.
+
